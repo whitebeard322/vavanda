@@ -1,0 +1,169 @@
+@media screen and (max-width: 1440px) {
+    .jackpot-value {
+        font: 700 100px/1.2em "Roboto", sans-serif;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider-content__offer {
+        font: 900 20px/1.2em "Roboto", sans-serif;
+    }
+    .slider-content__offer span {
+        font: 900 18px/1.1em "Roboto", sans-serif;
+    }
+    .wins-columns {
+        flex-direction: column;
+    }
+    .tour-columns {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .tour-title {
+        margin-bottom: 20px;
+    }
+    .navbar-middle {
+        display: none;
+    }
+    .jackpot-value {
+        font: 700 72px/1.2em "Roboto", sans-serif;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .tour_and_wins .container {
+        flex-direction: column;
+    }
+    .tour {
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .tour-columns {
+        flex-direction: row;
+    }
+    .wins-columns {
+        flex-direction: row;
+    }
+    .jackpot-value {
+        font: 700 56px/1.2em "Roboto", sans-serif;
+    }
+    .slot-outer {
+        flex-basis: 30%;
+        margin-bottom: 2%;
+    }
+    .header-nav.open {
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .content {
+        padding: 20px 0;
+    }
+    .slots {
+        padding: 20px 0;
+    }
+    .tour_and_wins {
+        padding: 20px 0;
+    }
+    .footer-navbar {
+        text-align: center;
+    }
+    .footer-nav ul {
+        flex-direction: column;
+    }
+    .copyright {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .jackpot-value {
+        font: 700 50px/1.2em "Roboto", sans-serif;
+    }
+    .related-title {
+        font-size: 36px;
+    }
+    .slot-frame {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .auth {
+        display: none;
+    }
+    .navbar-auth__wrapper {
+        width: 50%;
+    }
+    .jackpot-value {
+        font: 700 48px/1.2em "Roboto", sans-serif;
+    }
+    .header {
+        padding-top: 50px;
+    }
+    .navbar-wrapper {
+        padding: 5px 0;
+    }
+    .header-nav .auth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .header-nav .auth .btn {
+        width: 180px;
+    }
+    .header-nav .auth .btn-reg {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .jackpot-value {
+        font: 700 36px/1.2em "Roboto", sans-serif;
+    }
+    .wins-columns {
+        flex-direction: column;
+    }
+    .slot-outer {
+        flex-basis: 48%;
+    }
+    .navbar {
+        justify-content: flex-start;
+    }
+    .slot-frame iframe {
+        height: 50vh;
+    }
+    .related-title {
+        font-size: 28px;
+    }
+    .content-text {
+        font-size: 18px;
+    }
+    .sticky-btn {
+        position: fixed;
+        bottom: 15px;
+        z-index: 99;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .tour-columns {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .jackpot span {
+        font: 400 16px/46px "Roboto", sans-serif;
+    }
+    .jackpot-value {
+        font: 700 24px/1.2em "Roboto", sans-serif;
+    }
+    .related-title {
+        font-size: 28px;
+    }
+}
